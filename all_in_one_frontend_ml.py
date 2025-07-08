@@ -17,44 +17,44 @@ from streamlit_option_menu import option_menu
 
 
 #loading the saved models
-gender_classification = load_model('E:/ML projects/all in one/gender_model_custom_model.h5')
+gender_classification = load_model('gender_model_custom_model.h5')
 
-big_mart_sales = pickle.load(open('E:/ML projects/all in one/big_mart_sales.sav','rb'))
+big_mart_sales = pickle.load(open('big_mart_sales.sav','rb'))
 
-calories_burnt = pickle.load(open('E:/ML projects/all in one/calories_burnt_model.sav', 'rb'))
+calories_burnt = pickle.load(open('calories_burnt_model.sav', 'rb'))
 
-car_price_prediction = pickle.load(open('E:/ML projects/all in one/car_price_pred_model.sav', 'rb'))
+car_price_prediction = pickle.load(open('car_price_pred_model.sav', 'rb'))
 
-credit_card_fraud = pickle.load(open('E:/ML projects/all in one/credict_card_fraud_model.sav','rb'))
+credit_card_fraud = pickle.load(open('credict_card_fraud_model.sav','rb'))
 
-gold_price_model = pickle.load(open('E:/ML projects/all in one/Gold_price_prediction_model.sav','rb'))
+gold_price_model = pickle.load(open('Gold_price_prediction_model.sav','rb'))
 
-house_price_model = pickle.load(open('E:/ML projects/all in one/House_price_prediction_model.sav','rb'))
+house_price_model = pickle.load(open('House_price_prediction_model.sav','rb'))
 
-loan_prediction = pickle.load(open('E:/ML projects/all in one/Loan_prediction_model.sav','rb'))
+loan_prediction = pickle.load(open('Loan_prediction_model.sav','rb'))
 
-medical_insurance = pickle.load(open('E:/ML projects/all in one/Medical_cost_prediction_model.sav','rb'))
+medical_insurance = pickle.load(open('Medical_cost_prediction_model.sav','rb'))
 
 #for movie recommandation the file is downloaded in .pkl extension since it return any datatype, but .sav return function always,
 #which is not iterable, since for movie recommandation system we uses cosine similarity which returns a numpy array, to find
 #similar movies we need to iterate the matrix so it is important to file return numpy array
-movie_recommandation = pickle.load(open('E:/ML projects/all in one/movie_recommendation_similarity_model.pkl','rb'))
+movie_recommandation = pickle.load(open('movie_recommendation_similarity_model.pkl','rb'))
 
-rock_vs_mine = pickle.load(open('E:/ML projects/all in one/rockvsmine_prediction_model.sav','rb'))
+rock_vs_mine = pickle.load(open('rockvsmine_prediction_model.sav','rb'))
 
-spam_mail = pickle.load(open('E:/ML projects/all in one/spam_mail_detection.sav','rb'))
+spam_mail = pickle.load(open('spam_mail_detection.sav','rb'))
 
-titanic_survival = pickle.load(open('E:/ML projects/all in one/Titanic_survival_prediction_model.sav','rb'))
+titanic_survival = pickle.load(open('Titanic_survival_prediction_model.sav','rb'))
 
-wine_quality = pickle.load(open('E:/ML projects/all in one/wine_quality_prediction_model.sav','rb'))
+wine_quality = pickle.load(open('wine_quality_prediction_model.sav','rb'))
 
-diabetes_model = pickle.load(open('E:/ML projects/all in one/diabetes_trained_model.sav','rb'))
+diabetes_model = pickle.load(open('diabetes_trained_model.sav','rb'))
 
-heart_disease_model =  pickle.load(open('E:/ML projects/all in one/heart_training_model.sav', 'rb'))
+heart_disease_model =  pickle.load(open('heart_training_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('E:/ML projects/all in one/parkinsons_training_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_training_model.sav', 'rb'))
 
-breast_cancer_model = pickle.load(open('E:/ML projects/all in one/breast_cancer_training_model.sav', 'rb'))
+breast_cancer_model = pickle.load(open('breast_cancer_training_model.sav', 'rb'))
 
 
 #sidebar for navigation
