@@ -17,7 +17,7 @@ from streamlit_option_menu import option_menu
 
 
 #loading the saved models
-gender_classification = load_model('gender_model_custom_model.h5',custom_objects={"YourCustomLayer": YourCustomLayer})
+gender_classification = load_model('gender_model_custom_model.h5')
 
 big_mart_sales = pickle.load(open('big_mart_sales.sav','rb'))
 
