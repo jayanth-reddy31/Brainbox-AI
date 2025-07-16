@@ -1,4 +1,13 @@
-# 🧠 All-in-One ML & DL Streamlit Web App
+## 🧠 Brainbox -AI
+
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/jayanth-reddy31/Chunkwise/main/chunkwise_UI_1.png" width="600"/></td>
+    <td><img src="https://raw.githubusercontent.com/jayanth-reddy31/Chunkwise/main/chunkwise_UI_2.png" width="600"/></td>
+  </tr>
+</table>
+
+# All-in-One ML & DL Streamlit Web App
 
 This Streamlit web application integrates a collection of **machine learning** and **deep learning** models for a variety of classification and regression tasks. It provides an intuitive interface for users to input data (image, text, or numerical) and receive instant predictions.
 
