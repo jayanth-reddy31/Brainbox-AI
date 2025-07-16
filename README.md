@@ -2,8 +2,8 @@
 
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/jayanth-reddy31/Chunkwise/main/chunkwise_UI_1.png" width="600"/></td>
-    <td><img src="https://raw.githubusercontent.com/jayanth-reddy31/Chunkwise/main/chunkwise_UI_2.png" width="600"/></td>
+    <td><img src="https://github.com/jayanth-reddy31/Brainbox-AI/blob/main/brainbox1.png" width="600"/></td>
+    <td><img src="https://github.com/jayanth-reddy31/Brainbox-AI/blob/main/brainbox2.png" width="600"/></td>
   </tr>
 </table>
 
